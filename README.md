@@ -8,7 +8,7 @@
 
 >Initial source of OpenJFX11: https://hg.openjdk.java.net/openjfx/11-dev/rt/
 
->  As OpenJDK11 no longer includes OpenJFX, I have come to need to create a BUNDLE OF OpenJDK11.0.8_7 with OpenJFX11.0.8_2, for those who want to have OpenJfx installed in OpenJDK itself. 
+>  As OpenJDK11 no longer includes OpenJFX, I have come to need to create a BUNDLE OF OpenJDK11.0.8_7 with OpenJFX11.0.8_2, for those who want to have OpenJFX installed in OpenJDK itself. 
 
 ## Quick Build
 
