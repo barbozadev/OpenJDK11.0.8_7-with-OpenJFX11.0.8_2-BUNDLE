@@ -14,7 +14,7 @@
 cd C:/HERE
 
     Run configure:
-    bash configure --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-SDK
+    bash configure --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-sdk
 
     Run make:
     make images
@@ -35,7 +35,7 @@ cd C:/HERE
 >https://openjdk.java.net/groups/build/doc/building.html
  
 >To build the project, follow the steps according to the manual, but in this case, in the command step "configure" in the bash you have to add this:
-   --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-SDK
+   --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-sdk
 
 >The project folder must be at the top of all the directories in Windows, not Cygwin, example: C:\HERE, if you do them from another path, you will get an error when starting with something like this, in my case:
 c1xx: fatal error C1083: Cannot open source file: '../../..c:/cygwin64
@@ -56,7 +56,7 @@ cd C:/HERE
 
 
     Run configure:
-    bash configure --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-SDK
+    bash configure --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-sdk
 
 
     Run make:
@@ -77,7 +77,7 @@ Example: -with-toolchain-version= --with-jvm-variants= , etc.
 >-with-toolchain-version = You have to have Visual Studio Build Tools 2017 for C/C ++ or Visual Studio Community 2017 with the Development Package of C/C ++ or if is your case Visual Studio Professional 2017 with the Development Package of C/C ++ .
 
     Run configure:
-    bash configure --with-jvm-variants=server --with-toolchain-version=2017 --with-boot-jdk=C:/YOUR_CURRENT_OR PREFERED_JAVA_HOME_INSTALLED(Is permited from JDK10) --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-SDK
+    bash configure --with-jvm-variants=server --with-toolchain-version=2017 --with-boot-jdk=C:/YOUR_CURRENT_OR PREFERED_JAVA_HOME_INSTALLED(Is permited from JDK10) --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-sdk
 
     
 >These settings will be detected automatically, but if you get errors, follow the instructions in the manual: https://openjdk.java.net/groups/build/doc/building.html
