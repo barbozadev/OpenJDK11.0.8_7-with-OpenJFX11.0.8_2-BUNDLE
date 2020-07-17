@@ -63,25 +63,6 @@ In my case the compilation was done in Windows 10 with the Visual Studio 2017 to
 
 >Get the complete source code of this repository:
 The project of this repository must be in the Top of the directories in Windows, not Cygwin, example: C:\HERE
-   
-
->THE SIMPLEST AND FASTEST WAY:
-
->Open Cygwin en cd to the directory of the project, example: Note that have to be forward slash because is in Cygwin that is a UNIX like bash:
-cd C:/HERE
-
-
-    Run configure:
-    bash configure --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-sdk
-
-
-    Run make:
-    make images
-
->Verify your newly built JDK:
-./build/*/images/jdk/bin/java -version
-
->READY. You get the project binaries at: build/windows-x86_64-normal-server-release/images/jdk
 
 >>OPTIONAL:
 
