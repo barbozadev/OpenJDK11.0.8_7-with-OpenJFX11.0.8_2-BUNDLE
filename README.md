@@ -14,7 +14,7 @@
 
 >THE SIMPLEST AND FASTEST WAY:
 
->In my case on Windows 10, for macOSX and Linux you have to see the documentation: https://openjdk.java.net/groups/build/doc/building.html
+>In my case on Windows 10 Home 64bits with a Intel Core i3 6gen 2.30GHz (4 CPUs), 12GB DDR4 Ram and 1TB HDD takes around 1 hour to build after run the "make" command, for macOSX and Linux you have to see the documentation: https://openjdk.java.net/groups/build/doc/building.html
 
 >Open Cygwin and "cd" to the directory of the project, example: Note that have to be forward slash because is in Cygwin that is a UNIX like bash:
 cd C:/HERE
@@ -115,5 +115,7 @@ Optional, takes longer:
 More info: https://openjdk.java.net/groups/build/doc/building.html
 
 >Both distributions are subject to the GNU General Public License, version 2, with the Classpath Exception. More info: https://openjdk.java.net/legal/gplv2+ce.html
+
+>For sure feel free to fork this repo!!!
 
 >>>I hope it is helpful to the community!!!
