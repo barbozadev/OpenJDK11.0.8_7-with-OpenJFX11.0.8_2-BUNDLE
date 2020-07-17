@@ -16,7 +16,7 @@
 
 >In my case on Windows 10, for macOSX and Linux you have to see the documentation: https://openjdk.java.net/groups/build/doc/building.html
 
->Open Cygwin end "cd" to the directory of the project, example: Note that have to be forward slash because is in Cygwin that is a UNIX like bash:
+>Open Cygwin and "cd" to the directory of the project, example: Note that have to be forward slash because is in Cygwin that is a UNIX like bash:
 cd C:/HERE
 
     Get the source:
