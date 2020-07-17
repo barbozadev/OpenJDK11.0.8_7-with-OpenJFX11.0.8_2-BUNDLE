@@ -1,4 +1,4 @@
-# OpenJDK11.0.8_7-with-OpenJFX1-BUNDLE1.0.8_2
+# OpenJDK11.0.8_7-with-OpenJFX11.0.8_2-BUNDLE
 
 ## Introduction
 
