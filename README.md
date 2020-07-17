@@ -4,16 +4,23 @@
 
 >Both distributions are subject to the GNU General Public License, version 2, with the Classpath Exception. More info: https://openjdk.java.net/legal/gplv2+ce.html
 
+>Initial source of OpenJDK11: https://github.com/AdoptOpenJDK/openjdk-jdk11u/releases/tag/jdk-11.0.8%2B7_adopt 
+
+>Initial source of OpenJFX11: https://hg.openjdk.java.net/openjfx/11-dev/rt/
+
 >  As OpenJDK11 no longer includes OpenJFX, I have come to need to create a BUNDLE OF OpenJDK11.0.8_7 with OpenJFX11.0.8_2, for those who want to have OpenJfx installed in OpenJDK itself. 
 
-## Code Samples
+## Quick Build
 
 >THE SIMPLEST AND FASTEST WAY:
 
->In my case on Windows 10, for macOSX an Linux you have to see the documentation: https://openjdk.java.net/groups/build/doc/building.html
+>In my case on Windows 10, for macOSX and Linux you have to see the documentation: https://openjdk.java.net/groups/build/doc/building.html
 
 >Open Cygwin en cd to the directory of the project, example: Note that have to be forward slash because is in Cygwin that is a UNIX like bash:
 cd C:/HERE
+
+    Get the source:
+    git clone https://github.com/barbozadev/OpenJDK11.0.8_7-with-OpenJFX11.0.8_2-BUNDLE.git
 
     Run configure:
     bash configure --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-sdk
@@ -27,7 +34,7 @@ cd C:/HERE
 
 >READY. You get the project binaries at: build/windows-x86_64-normal-server-release/images/jdk
 
-## Installation
+## Requirements & Installation
 
 > As OpenJDK11 no longer includes the OpenJFX announced since JDK8, I have come to need to create a BUNDLE OF OpenJDK11.0.8_7 with OpenJFX11.0.8_2, for those who want to have OpenJfx installed in the same OpenJDK. The package or folder "openjfx-modular-SDK" included in the repository has been built before, this according to the OpenJFX manual, if you want to build the OpenJFX by yourself, follow the steps in the manual: https://wiki.openjdk.java.net/display/OpenJFX/Building+OpenJFX
 
@@ -75,6 +82,8 @@ cd C:/HERE
 Example: -with-toolchain-version= --with-jvm-variants= , etc.
 
 >--with-jvm-variants = It can be "server", "client", etc. by default without using this command, the server is created.
+
+>For 32bits needs add --with-target-bits=32
 
 >-with-toolchain-version = You have to have Visual Studio Build Tools 2017 for C/C ++ or Visual Studio Community 2017 with the Development Package of C/C ++ or if is your case Visual Studio Professional 2017 with the Development Package of C/C ++ .
 
