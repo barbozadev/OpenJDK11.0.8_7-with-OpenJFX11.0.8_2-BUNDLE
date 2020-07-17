@@ -17,7 +17,10 @@
 >In my case on Windows 10 Home 64bits with a Intel Core i3 6gen 2.30GHz (4 CPUs), 12GB DDR4 Ram and 1TB HDD takes around 1 hour to build after run the "make" command, for macOSX and Linux you have to see the documentation: https://openjdk.java.net/groups/build/doc/building.html
 
 >Open Cygwin and "cd" to the directory of the project, example: Note that have to be forward slash because is in Cygwin that is a UNIX like bash:
-cd C:/HERE
+Have to be in the top directory on Windows C:/, if you uses a tree of directories you'll have issues, see in the INSTALLATION part below:
+Cygwin will create like symlinks for to access this directories.
+
+cd C:/FOLDER_OF_THIS_PROJECT
 
     Get the source:
     git clone https://github.com/barbozadev/OpenJDK11.0.8_7-with-OpenJFX11.0.8_2-BUNDLE.git
@@ -36,7 +39,7 @@ cd C:/HERE
 
 ## Requirements & Installation
 
-> As OpenJDK11 no longer includes the OpenJFX announced since JDK8, I have come to need to create a BUNDLE OF OpenJDK11.0.8_7 with OpenJFX11.0.8_2, for those who want to have OpenJfx installed in the same OpenJDK. The package or folder "openjfx-modular-SDK" included in the repository has been built before, this according to the OpenJFX manual, if you want to build the OpenJFX by yourself, follow the steps in the manual: https://wiki.openjdk.java.net/display/OpenJFX/Building+OpenJFX
+> As OpenJDK11 no longer includes the OpenJFX announced since JDK8, I have come to need to create a BUNDLE of OpenJDK11.0.8_7 with OpenJFX11.0.8_2, for those who want to have OpenJFX installed in the same OpenJDK. The package or folder "openjfx-modular-sdk" included in the repository has been built before, this according to the OpenJFX manual, if you want to build the OpenJFX by yourself, follow the steps in the manual: https://wiki.openjdk.java.net/display/OpenJFX/Building+OpenJFX
 
 
 >REQUIREMENTS: 
