@@ -16,9 +16,10 @@
 
 >In my case on Windows 10 Home 64bits with a Intel Core i3 6gen 2.30GHz (4 CPUs), 12GB DDR4 Ram and 1TB HDD takes around 1 hour to build after run the "make" command, for macOSX and Linux you have to see the documentation: https://openjdk.java.net/groups/build/doc/building.html
 
->Open Cygwin and "cd" to the directory of the project, example: Note that have to be forward slash because is in Cygwin that is a UNIX like bash:
-Have to be in the top directory on Windows C:/, if you uses a tree of directories you'll have issues, see in the INSTALLATION part.
-Cygwin will create like symlinks to access this directory when you run the "configure" commamd.
+>Open Cygwin and "cd" to the directory of the project, example: Note that have to be forward slash because is in Cygwin that is a UNIX like bash.
+
+>Have to be in the top directory on Windows C:/, if you uses a tree of directories you'll have issues, see in the INSTALLATION part.
+Cygwin will create like symlinks to access this directory when you run the "configure" command.
 
 
 >First on Windows if you want to get the repo with git, or you download and unzip:
