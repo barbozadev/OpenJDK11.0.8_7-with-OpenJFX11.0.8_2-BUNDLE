@@ -10,6 +10,8 @@
 
 >THE SIMPLEST AND FASTEST WAY:
 
+>In my case on Windows 10, for macOSX an Linux you have to see the documentation: https://openjdk.java.net/groups/build/doc/building.html
+
 >Open Cygwin en cd to the directory of the project, example: Note that have to be forward slash because is in Cygwin that is a UNIX like bash:
 cd C:/HERE
 
