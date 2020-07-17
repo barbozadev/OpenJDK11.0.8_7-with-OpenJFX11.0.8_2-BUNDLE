@@ -20,7 +20,7 @@
 Have to be in the top directory on Windows C:/, if you uses a tree of directories you'll have issues, see in the INSTALLATION part below:
 Cygwin will create like symlinks for to access this directories.
 
-cd C:/FOLDER_OF_THIS_PROJECT
+>cd C:/FOLDER_OF_THIS_PROJECT
 
     Get the source:
     git clone https://github.com/barbozadev/OpenJDK11.0.8_7-with-OpenJFX11.0.8_2-BUNDLE.git
