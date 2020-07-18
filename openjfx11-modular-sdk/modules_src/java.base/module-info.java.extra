@@ -1,3 +1,0 @@
-exports sun.security.pkcs to jdk.packager;
-exports sun.security.timestamp to jdk.packager;
-exports sun.security.x509 to jdk.packager;

@@ -1,1 +1,0 @@
-exports jdk.tools.jlink.internal.packager to jdk.packager;
