@@ -17,7 +17,7 @@
 >In my case on Windows 10 Home 64bits with a Intel Core i3 6gen 2.30GHz (4 CPUs), 12GB DDR4 Ram and 1TB HDD takes around 1 hour to build after run the "make" command, for macOSX and Linux you have to see the documentation: https://openjdk.java.net/groups/build/doc/building.html
 
 
->I will soon provide the Linux modular sdk of OpenJFX11.
+>>For a Linux build package use "openjfx11-modular-sdk-linux-x64" that is in the repo, use a Linux Distro.
 
 >Open Cygwin and "cd" to the directory of the project, example: Note that have to be forward slash because is in Cygwin that is a UNIX like bash.
 
