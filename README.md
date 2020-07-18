@@ -19,6 +19,8 @@
 
 >>For a Linux build package use "openjfx11-modular-sdk-linux-x64" that is in the repo, use a Linux Distro.
 
+>>You need to have the compilers installed before on your OS, for java files the JDK and env path applied, for C/C++ files Visual Studio 2017 Windows and GCC or Clang for Linux!!!
+
 >Open Cygwin and "cd" to the directory of the project, example: Note that have to be forward slash because is in Cygwin that is a UNIX like bash.
 
 >Have to be in the top directory on Windows C:/, if you uses a tree of directories you'll have issues, see in the INSTALLATION part.
