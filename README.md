@@ -2,7 +2,7 @@
 
 ## Introduction
 
->Both distributions are subject to the GNU General Public License, version 2, with the Classpath Exception. More info: https://openjdk.java.net/legal/gplv2+ce.html
+>Both distributions are under the GNU General Public License, version 2, with the Classpath Exception. More info: https://openjdk.java.net/legal/gplv2+ce.html
 
 >Initial source of OpenJDK11: https://github.com/AdoptOpenJDK/openjdk-jdk11u/releases/tag/jdk-11.0.8%2B7_adopt 
 
@@ -107,7 +107,7 @@ Optional, takes longer:
     make run-test-tier1
 More info: https://openjdk.java.net/groups/build/doc/building.html
 
->Both distributions are subject to the GNU General Public License, version 2, with the Classpath Exception. More info: https://openjdk.java.net/legal/gplv2+ce.html
+>Both distributions are under the GNU General Public License, version 2, with the Classpath Exception. More info: https://openjdk.java.net/legal/gplv2+ce.html
 
 >For sure feel free to fork this repo!!!
 
