@@ -33,7 +33,7 @@ Cygwin will create like symlinks to access this directory when you run the "conf
 >Now open Cygwin and then: cd C:/FOLDER_OF_THIS_PROJECT    
 
     Run configure:
-    bash configure --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-sdk
+    bash configure --with-import-modules=C:/FOLDER_OF_THIS_PROJECT/openjfx11-modular-sdk-windows-x64
 
     Run make:
     make images
